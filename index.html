@@ -3,11 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Suhaib Sawalha Portfolio" />
+    <link rel="icon" href="./assets/img/logo.png" type="image/png" />
     <title>Suhaib Sawalha</title>
     <link rel="stylesheet" href="./assets/bootstrap/style.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#"
+            ><span>S</span>uhaib <span>S</span>awalha
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Competitions">Competitions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Contact">Contact</a>
+                </li>
+                <div class="nav-item" id="backNav"></div>
+                <div class="nav-item" id="lineNav"></div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="Home">
+        <div class="after"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6 home-content-col">
+              <div class="home-content">
+                <h1 class="text-white">Welcome to my <span>Portfolio</span></h1>
+                <p class="text-white">
+                  This is me! Suhaib Sawalha, <br />
+                  and this my life journey.
+                </p>
+                <a href="#About" class="btn btn-green">Discover Me ✨</a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 home-img-col">
+              <div class="home-img">
+                <img src="./assets/img/me.png" alt="home" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="About" class="container"></section>
+      <section id="Projects" class="container"></section>
+      <section id="Competitions" class="container"></section>
+      <section id="Contact" class="container"></section>
+    </main>
     <script src="./assets/bootstrap/main.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
