@@ -158,6 +158,12 @@ const mySkills = [
     level: "95%",
     image: "./../assets/img/skills/bootstrap.png",
   },
+  { name: "Git", level: "75%", image: "./../assets/img/skills/git.png" },
+  {
+    name: "Postman",
+    level: "65%",
+    image: "./../assets/img/skills/postman.png",
+  },
   { name: "Java", level: "75%", image: "./../assets/img/skills/java.png" },
   { name: "Python", level: "65%", image: "./../assets/img/skills/python.png" },
   { name: "Dart", level: "50%", image: "./../assets/img/skills/dart.png" },
