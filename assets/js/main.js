@@ -144,42 +144,42 @@ window.addEventListener("resize", customizeHeadLines);
 window.addEventListener("load", customizeHeadLines);
 
 const mySkills = [
-  { name: "C++", level: "95%", image: "./../assets/img/skills/c++.png" },
-  { name: "C", level: "90%", image: "./../assets/img/skills/c.png" },
-  { name: "HTML", level: "95%", image: "./../assets/img/skills/html.png" },
-  { name: "CSS", level: "90%", image: "./../assets/img/skills/css.png" },
+  { name: "C++", level: "95%", image: "./../assets/img/Skills/c++.png" },
+  { name: "C", level: "90%", image: "./../assets/img/Skills/c.png" },
+  { name: "HTML", level: "95%", image: "./../assets/img/Skills/html.png" },
+  { name: "CSS", level: "90%", image: "./../assets/img/Skills/css.png" },
   {
     name: "JavaScript",
     level: "80%",
-    image: "./../assets/img/skills/javascript.png",
+    image: "./../assets/img/Skills/javascript.png",
   },
   {
     name: "Bootstrap",
     level: "95%",
-    image: "./../assets/img/skills/bootstrap.png",
+    image: "./../assets/img/Skills/bootstrap.png",
   },
-  { name: "Git", level: "75%", image: "./../assets/img/skills/git.png" },
+  { name: "Git", level: "75%", image: "./../assets/img/Skills/git.png" },
   {
     name: "Postman",
     level: "65%",
-    image: "./../assets/img/skills/postman.png",
+    image: "./../assets/img/Skills/postman.png",
   },
-  { name: "Java", level: "75%", image: "./../assets/img/skills/java.png" },
-  { name: "Python", level: "65%", image: "./../assets/img/skills/python.png" },
-  { name: "Dart", level: "50%", image: "./../assets/img/skills/dart.png" },
-  { name: "Kotlin", level: "30%", image: "./../assets/img/skills/kotlin.png" },
+  { name: "Java", level: "75%", image: "./../assets/img/Skills/java.png" },
+  { name: "Python", level: "65%", image: "./../assets/img/Skills/python.png" },
+  { name: "Dart", level: "50%", image: "./../assets/img/Skills/dart.png" },
+  { name: "Kotlin", level: "30%", image: "./../assets/img/Skills/kotlin.png" },
   {
     name: "Flutter",
     level: "65%",
-    image: "./../assets/img/skills/flutter.png",
+    image: "./../assets/img/Skills/flutter.png",
   },
-  { name: "React JS", level: "30%", image: "./../assets/img/skills/react.png" },
+  { name: "React JS", level: "30%", image: "./../assets/img/Skills/react.png" },
   {
     name: "React Native",
     level: "20%",
-    image: "./../assets/img/skills/react.png",
+    image: "./../assets/img/Skills/react.png",
   },
-  { name: "Django", level: "20%", image: "./../assets/img/skills/django.png" },
+  { name: "Django", level: "20%", image: "./../assets/img/Skills/django.png" },
 ];
 
 for (const skill of mySkills) {
@@ -198,4 +198,65 @@ for (const skill of mySkills) {
     </div>
   `;
   document.querySelector("#skills").appendChild(div);
+}
+
+const projects = [
+  {
+    name: "Birzeit Sport",
+    description:
+      "Birzeit Sport is a website made for a competition, it's mainly about healthy lifestyle, healthy food and various trainings.",
+    image: "./../assets/img/projects/birzeit-sport.png",
+    link: "https://suhaibsawalha.github.io/Sport/",
+  },
+  {
+    name: "Tourism in Palestine",
+    description:
+      "Tourism in Palestine is a website that gives information about Palestine and the most important places to visit.",
+    image: "./../assets/img/projects/tourism.png",
+    link: "https://suhaibsawalha.github.io/Tourism/",
+  },
+  {
+    name: "Blog",
+    description:
+      "Blog is webiste that lets the users to create accounts and post their blogs, and also like and comment on other blogs.",
+    image: "./../assets/img/projects/blog.png",
+    link: "https://suhaibsawalha.github.io/Blog/",
+  },
+  {
+    name: "Quiz",
+    description:
+      "Quiz is website that lets the users to take a quiz and get their results, and also make their own quizzes.",
+    image: "./../assets/img/projects/quiz.png",
+    link: "https://suhaibsawalha.github.io/Quiz/",
+  },
+  {
+    name: "News Website",
+    description:
+      "News Website is a website made for a competition, it's mainly about the latest news and articles about various topics.",
+    image: "./../assets/img/projects/news-website.png",
+    link: "https://suhaibsawalha.github.io/News__WebSite/",
+  },
+  {
+    name: "Tic-Tac-Toe",
+    description:
+      "Tic-Tac-Toe is a game made using HTML, CSS and JavaScript, you can play agaist other people or against the smart computer.",
+    image: "./../assets/img/projects/tic-tac-toe.png",
+    link: "https://suhaibsawalha.github.io/Tic-Tac-Toe/",
+  },
+];
+
+for (const project of projects) {
+  const div = document.createElement("div");
+  div.className = "project";
+  div.innerHTML = `
+    <div class="project-image">
+      <img src="${project.image}" alt="${project.name}" />
+    </div>
+    <div class="project-body">
+      <div class="project-name"><h3>${project.name}</h3></div>
+      <div class="project-description"><p>${project.description}<p></div>
+      <a href="${project.link}" class="project-link btn btn-green" target="_blank">Visit Website <i class="bi bi-box-arrow-up-right"></i></a>
+    </div>
+  `;
+  document.querySelector("#Projects").appendChild(div);
 }
