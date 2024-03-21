@@ -152,42 +152,42 @@ window.addEventListener("resize", customizeHeadLines);
 window.addEventListener("load", customizeHeadLines);
 
 const mySkills = [
-  { name: "C++", level: "95%", image: "./assets/img/Skills/c++.png" },
-  { name: "C", level: "90%", image: "./assets/img/Skills/c.png" },
-  { name: "HTML", level: "95%", image: "./assets/img/Skills/html.png" },
-  { name: "CSS", level: "90%", image: "./assets/img/Skills/css.png" },
+  { name: "C++", level: "95%", image: "./assets/img/skills/c++.png" },
+  { name: "C", level: "90%", image: "./assets/img/skills/c.png" },
+  { name: "HTML", level: "95%", image: "./assets/img/skills/html.png" },
+  { name: "CSS", level: "90%", image: "./assets/img/skills/css.png" },
   {
     name: "JavaScript",
     level: "80%",
-    image: "./assets/img/Skills/javascript.png",
+    image: "./assets/img/skills/javascript.png",
   },
   {
     name: "Bootstrap",
     level: "95%",
-    image: "./assets/img/Skills/bootstrap.png",
+    image: "./assets/img/skills/bootstrap.png",
   },
-  { name: "Git", level: "75%", image: "./assets/img/Skills/git.png" },
+  { name: "Git", level: "75%", image: "./assets/img/skills/git.png" },
   {
     name: "Postman",
     level: "65%",
-    image: "./assets/img/Skills/postman.png",
+    image: "./assets/img/skills/postman.png",
   },
-  { name: "Java", level: "75%", image: "./assets/img/Skills/java.png" },
-  { name: "Python", level: "65%", image: "./assets/img/Skills/python.png" },
-  { name: "Dart", level: "50%", image: "./assets/img/Skills/dart.png" },
-  { name: "Kotlin", level: "30%", image: "./assets/img/Skills/kotlin.png" },
+  { name: "Java", level: "75%", image: "./assets/img/skills/java.png" },
+  { name: "Python", level: "65%", image: "./assets/img/skills/python.png" },
+  { name: "Dart", level: "50%", image: "./assets/img/skills/dart.png" },
+  { name: "Kotlin", level: "30%", image: "./assets/img/skills/kotlin.png" },
   {
     name: "Flutter",
     level: "65%",
-    image: "./assets/img/Skills/flutter.png",
+    image: "./assets/img/skills/flutter.png",
   },
-  { name: "React JS", level: "30%", image: "./assets/img/Skills/react.png" },
+  { name: "React JS", level: "30%", image: "./assets/img/skills/react.png" },
   {
     name: "React Native",
     level: "20%",
-    image: "./assets/img/Skills/react.png",
+    image: "./assets/img/skills/react.png",
   },
-  { name: "Django", level: "20%", image: "./assets/img/Skills/django.png" },
+  { name: "Django", level: "20%", image: "./assets/img/skills/django.png" },
 ];
 
 for (const skill of mySkills) {
