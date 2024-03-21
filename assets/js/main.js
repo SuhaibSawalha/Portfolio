@@ -6,7 +6,7 @@ document.querySelector(".navbar-toggler").addEventListener("click", () => {
   }, 350);
 });
 
-const hrefs = ["#Home", "#About", "#Projects", "#Competitions", "#Contact"];
+const hrefs = ["#Home", "#About", "#Projects", "#competitions", "#Contact"];
 function applyHoverOnNavbar() {
   if (window.innerWidth > 991.5) {
     for (let i = 0; i < hrefs.length; ++i) {
@@ -275,39 +275,39 @@ const competitions = [
     description:
       "Games Of The Future is an international Competition held in Russia every year, I've participated in the first version of the competition at 2024, I've participated in the competitve programming section and got the 31st place among participants around the world.",
     images: [
-      "./assets/img/Competitions/gamesOfTheFuture2024/gamesOfTheFuture-suhaib.jpg",
-      "./assets/img/Competitions/gamesOfTheFuture2024/gamesOfTheFuture-palestine.jpg",
-      "./assets/img/Competitions/gamesOfTheFuture2024/gamesOfTheFuture-arab.jpg",
+      "./assets/img/competitions/gamesOfTheFuture2024/gamesOfTheFuture-suhaib.jpg",
+      "./assets/img/competitions/gamesOfTheFuture2024/gamesOfTheFuture-palestine.jpg",
+      "./assets/img/competitions/gamesOfTheFuture2024/gamesOfTheFuture-arab.jpg",
     ],
   },
   {
     name: "ICPC",
     description:
       "ICPC is the International Colligate Programming Contest, it's the most prestigest programming contest around the world, me and my team were the first palestinain team ever qualifing to the ICPC, it would be held in 14/4/2024.",
-    images: ["./assets/img/Competitions/icpc.png"],
+    images: ["./assets/img/competitions/icpc.png"],
   },
   {
     name: "ACPC 2022",
     description:
       "ACPC is the Arab and North Africa Colligate Programming Contest, it's the most prestigest programming contest in the Arab world, me and my team got the 11th place and bronze medal in 2022 and were the first palestinain team ever got a medal in the ACPC.",
     images: [
-      "./assets/img/Competitions/acpc2022/acpc2022-team.jpg",
-      "./assets/img/Competitions/acpc2022/acpc2022-all.jpg",
+      "./assets/img/competitions/acpc2022/acpc2022-team.jpg",
+      "./assets/img/competitions/acpc2022/acpc2022-all.jpg",
     ],
   },
   {
     name: "ACPC-teens 2021",
     description:
       "ACPC-teens is the ACPC but for the school students, me and my team mate paricipated in 2021 and got the 3rd place and a silver medal, it was the first and the final time a palestinian team gets a medal.",
-    images: ["./assets/img/Competitions/acpc2021.jpg"],
+    images: ["./assets/img/competitions/acpc2021.jpg"],
   },
   {
     name: "PCPC 2023",
     description:
       "PCPC is the Palestinain Colligate Programming Contest, it's the most prestigest programming contest in Palestine, me and my team got the first place for the 3rd time in a row.",
     images: [
-      "./assets/img/Competitions/pcpc2023/pcpc2023-team.jpg",
-      "./assets/img/Competitions/pcpc2023/pcpc2023-all.jpg",
+      "./assets/img/competitions/pcpc2023/pcpc2023-team.jpg",
+      "./assets/img/competitions/pcpc2023/pcpc2023-all.jpg",
     ],
   },
   {
@@ -315,125 +315,125 @@ const competitions = [
     description:
       "PCPC 2022 was held in Rawabi, me and my team got the first place for the second time in a row.",
     images: [
-      "./assets/img/Competitions/pcpc2022/pcpc2022-team.jpg",
-      "./assets/img/Competitions/pcpc2022/pcpc2022-all.jpg",
+      "./assets/img/competitions/pcpc2022/pcpc2022-team.jpg",
+      "./assets/img/competitions/pcpc2022/pcpc2022-all.jpg",
     ],
   },
   {
     name: "PCPC 2021",
     description:
       "Me and my team participated in the PCPC 2021 unofficaliy because we were at school. although, we got the first place among offical and unoffical participants.",
-    images: ["./assets/img/Competitions/pcpc2021.jpg"],
+    images: ["./assets/img/competitions/pcpc2021.jpg"],
   },
   {
     name: "PCPC 2020",
     description:
       "PCPC 2020 was my first local contest in my competitve programming journy, me and my team participated unofficialiy and got the 6th place among all participants.",
-    images: ["./assets/img/Competitions/pcpc2020.jpg"],
+    images: ["./assets/img/competitions/pcpc2020.jpg"],
   },
   {
     name: "IEEEXtreme 16.0 & 17.0",
     description:
       "IEEEXtreme is an international 24-hours contest. IEEEXtreme 16.0 was held in the university and we got the 35th place among all participants in the world, IEEEXtreme 17.0 was held online and we got the 31th place.",
-    images: ["./assets/img/Competitions/ieeextreme16.jpg"],
+    images: ["./assets/img/competitions/ieeextreme16.jpg"],
   },
   {
     name: "IOI 2021",
     description:
       "IOI is the International Olympiad In Informatics, it's the most prestigest programming contest around the world for school students, I've participated in IOI 2021 and got a honorable mention.",
     images: [
-      "./assets/img/Competitions/ioi2021/ioi2021-team.jpg",
-      "./assets/img/Competitions/ioi2021/ioi2021-all.jpg",
+      "./assets/img/competitions/ioi2021/ioi2021-team.jpg",
+      "./assets/img/competitions/ioi2021/ioi2021-all.jpg",
     ],
   },
   {
     name: "APIO 2021",
     description:
       "APIO 2021 is a competition that was held in Birzeit University, it was about solving problems using C++.",
-    images: ["./assets/img/Competitions/apio2021.png"],
+    images: ["./assets/img/competitions/apio2021.png"],
   },
   {
     name: "Google Code Jam 2021",
     description:
       "I've participated in Google Code Jam 2021 and got the 3031st place.",
-    images: ["./assets/img/Competitions/googleCodeJam.png"],
+    images: ["./assets/img/competitions/googleCodeJam.png"],
   },
   {
     name: "Facebook Hacker Cup 2021",
     description:
       "I've participated in Facebook Hacker Cup 2021 and got 675th place in the qualification round, then the 4362nd place in round 1, then the 1467th place in round 2.",
-    images: ["./assets/img/Competitions/facebookHackerCup.png"],
+    images: ["./assets/img/competitions/facebookHackerCup.png"],
   },
   {
     name: "Hebron Code Jam 2023",
     description:
       "Hebron Code Jam is a local competition held at hebron university every year, me and my team got the first place in 2023 among all participants from all universities.",
-    images: ["./assets/img/Competitions/hebronCodeJam2023.jpg"],
+    images: ["./assets/img/competitions/hebronCodeJam2023.jpg"],
   },
   {
     name: "Logic Battle",
     description:
       "Logic Battle is a competition that was held online among universities, and I got the first place.",
-    images: ["./assets/img/Competitions/logicBattle.jpg"],
+    images: ["./assets/img/competitions/logicBattle.jpg"],
   },
   {
     name: "AFPC 2022",
     description:
       "AFPC 2022 is the Arabic Future Programmers Contest, it's a competition held in Jordan every year for school students among the Arab wolrd, me and my team got the first place.",
     images: [
-      "./assets/img/Competitions/afpc2022/afpc-team-cup.jpg",
-      "./assets/img/Competitions/afpc2022/afpc-team-cup-up.jpg",
-      "./assets/img/Competitions/afpc2022/afpc-all-cup.jpg",
-      "./assets/img/Competitions/afpc2022/afpc-all-stage.jpg",
-      "./assets/img/Competitions/afpc2022/afpc-all.jpg",
+      "./assets/img/competitions/afpc2022/afpc-team-cup.jpg",
+      "./assets/img/competitions/afpc2022/afpc-team-cup-up.jpg",
+      "./assets/img/competitions/afpc2022/afpc-all-cup.jpg",
+      "./assets/img/competitions/afpc2022/afpc-all-stage.jpg",
+      "./assets/img/competitions/afpc2022/afpc-all.jpg",
     ],
   },
   {
     name: "IC 2022",
     description:
       "IC 2022 is the Programming Student Contest, it's a competition held every year in Kadoorie University every year for school students among Palestine, I've got the second place.",
-    images: ["./assets/img/Competitions/ic2022.jpg"],
+    images: ["./assets/img/competitions/ic2022.jpg"],
   },
   {
     name: "IC 2023",
     description: "In 2023 I was the problem setter for the IC 2023.",
-    images: ["./assets/img/Competitions/ic2023.jpg"],
+    images: ["./assets/img/competitions/ic2023.jpg"],
   },
   {
     name: "Noon Competition",
     description:
       "Noon company hold a competition at Birzeit University, me and my team got the first place.",
-    images: ["./assets/img/Competitions/noonCompetition.jpg"],
+    images: ["./assets/img/competitions/noonCompetition.jpg"],
   },
   {
     name: "Code A Thon",
     description:
       "Code A Thon is a competition that was held in Birzeit University from the computer engineering club and the computer science club, me and my team mate got the first place.",
-    images: ["./assets/img/Competitions/codeAThon.jpg"],
+    images: ["./assets/img/competitions/codeAThon.jpg"],
   },
   {
     name: "One To Zero",
     description:
       "One To Zero is a competition that was held in Birzeit University from the computer engineering club, me and my team mate got the first place.",
-    images: ["./assets/img/Competitions/oneToZero.jpg"],
+    images: ["./assets/img/competitions/oneToZero.jpg"],
   },
   {
     name: "Qatayef Code",
     description:
       "Qatayef Code is a competition that was held in Birzeit University from the IEEE club, and I've got the second place.",
-    images: ["./assets/img/Competitions/qatayefCode.jpg"],
+    images: ["./assets/img/competitions/qatayefCode.jpg"],
   },
   {
     name: "Recruitment Day",
     description:
       "There was a competition at the Recruitment Day in Birzeit University, me and my team mate got the second place.",
-    images: ["./assets/img/Competitions/recruitmentDay.jpg"],
+    images: ["./assets/img/competitions/recruitmentDay.jpg"],
   },
   {
     name: "Frontend Bootcamp",
     description:
       "I've participated in a competition from a Frontend Bootcamp held by knowledge academy and got the second place.",
-    images: ["./assets/img/Competitions/frontendBootcamp.jpg"],
+    images: ["./assets/img/competitions/frontendBootcamp.jpg"],
   },
 ];
 
@@ -450,7 +450,7 @@ for (let i = 0; i < competitions.length; ++i) {
     </div>
   `;
   competitionContainer.appendChild(competition);
-  document.getElementById("Competitions").appendChild(competitionContainer);
+  document.getElementById("competitions").appendChild(competitionContainer);
 
   const div = document.createElement("div");
   div.className = "competition-img";
@@ -538,4 +538,4 @@ for (const account of accounts) {
   accountContainer.appendChild(a);
   row.appendChild(accountContainer);
 }
-document.querySelector("#Competitions").appendChild(row);
+document.querySelector("#competitions").appendChild(row);
