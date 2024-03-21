@@ -694,3 +694,75 @@ section:not(#Home) {
 }
 
 /* ! end Competitions styling */
+
+/* ! start Contact styling */
+
+.contact-right,
+.contact-left {
+  height: 440px;
+}
+.contact-right .row {
+  height: 220px;
+}
+.contact-right .col-12 {
+  height: 210px;
+}
+.sub-section {
+  padding: 15px 5px 15px 30px;
+  height: 100%;
+  border-radius: 10px;
+  background-color: var(--mainBlack);
+}
+.sub-section i {
+  color: var(--mainGreen);
+  font-size: 2.5rem;
+}
+.contact-left {
+  border-radius: 10px;
+  background-color: var(--mainBlack);
+}
+
+.form-control {
+  margin-top: 20px;
+}
+input[aria-label="Username"] {
+  margin-right: 15px;
+}
+#textarea {
+  resize: none;
+  height: 220px;
+}
+
+@media (max-width: 1199.5px) {
+  .contact-right {
+    margin-bottom: 30px;
+  }
+  .contact-right > .row > div:first-child {
+    padding-left: 0;
+  }
+  .contact-right > .row > div:last-child {
+    padding-right: 0;
+  }
+}
+@media (max-width: 575.5px) {
+  .contact-right {
+    height: 870px;
+  }
+  .contact-right .row {
+    height: 440px;
+  }
+  .contact-right .col-12 {
+    padding: 0;
+  }
+  form .input-group:first-child input {
+    width: 100%;
+  }
+  input[aria-label="Username"] {
+    margin-right: 0;
+  }
+  .contact-left {
+    height: 480px;
+  }
+}
+
+/* ! end Contact styling */
