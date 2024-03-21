@@ -10,7 +10,6 @@ function applyHoverOnNavbar() {
   if (window.innerWidth > 991.5) {
     for (let i = 0; i < hrefs.length; ++i) {
       const a = document.querySelector(`.nav-item a[href="${hrefs[i]}"]`);
-      console.log(hrefs[i]);
       a.addEventListener("mouseover", () => {
         if (window.scrollY <= 10) {
           const lineNav = document.getElementById("lineNav");
@@ -350,19 +349,19 @@ const competitions = [
     name: "APIO 2021",
     description:
       "APIO 2021 is a competition that was held in Birzeit University, it was about solving problems using C++.",
-    images: ["./assets/img/competitions/apio2021.png"],
+    images: ["./assets/img/competitions/apio2021.PNG"],
   },
   {
     name: "Google Code Jam 2021",
     description:
       "I've participated in Google Code Jam 2021 and got the 3031st place.",
-    images: ["./assets/img/competitions/googleCodeJam.png"],
+    images: ["./assets/img/competitions/googleCodeJam.PNG"],
   },
   {
     name: "Facebook Hacker Cup 2021",
     description:
       "I've participated in Facebook Hacker Cup 2021 and got 675th place in the qualification round, then the 4362nd place in round 1, then the 1467th place in round 2.",
-    images: ["./assets/img/competitions/facebookHackerCup.png"],
+    images: ["./assets/img/competitions/facebookHackerCup.PNG"],
   },
   {
     name: "Hebron Code Jam 2023",
