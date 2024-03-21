@@ -794,3 +794,46 @@ input[aria-label="Username"] {
 }
 
 /* ! end Contact styling */
+
+/* ! start footer styling */
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: var(--mainGray);
+}
+footer p {
+  text-align: center;
+  margin-bottom: 0;
+  font-family: var(--content-h1);
+}
+#social-media i {
+  color: white;
+  font-size: 1.7rem;
+  transition: color 0.5s ease;
+}
+#social-media a {
+  margin: 5px;
+}
+#social-media i:hover {
+  cursor: pointer;
+  color: var(--mainGreen);
+}
+
+.footerLine {
+  width: 250px;
+  height: 2px;
+  background-color: var(--mainGreen);
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+#copyright p {
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+#copyright i {
+  font-size: 0.8rem;
+}
+
+/* ! end footer styling */
