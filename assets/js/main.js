@@ -6,7 +6,7 @@ document.querySelector(".navbar-toggler").addEventListener("click", () => {
   }, 350);
 });
 
-const hrefs = ["#Home", "#About", "#Projects", "#competitions", "#Contact"];
+const hrefs = ["#Home", "#About", "#Projects", "#Competitons", "#Contact"];
 function applyHoverOnNavbar() {
   if (window.innerWidth > 991.5) {
     for (let i = 0; i < hrefs.length; ++i) {
