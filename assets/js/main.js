@@ -5,12 +5,12 @@ document.querySelector(".navbar-toggler").addEventListener("click", () => {
     resume.style.display = "inline-block";
   }, 350);
 });
-
-const hrefs = ["#Home", "#About", "#Projects", "#Competitons", "#Contact"];
+const hrefs = ["#Home", "#About", "#Projects", "#Competitions", "#Contact"];
 function applyHoverOnNavbar() {
   if (window.innerWidth > 991.5) {
     for (let i = 0; i < hrefs.length; ++i) {
       const a = document.querySelector(`.nav-item a[href="${hrefs[i]}"]`);
+      console.log(hrefs[i]);
       a.addEventListener("mouseover", () => {
         if (window.scrollY <= 10) {
           const lineNav = document.getElementById("lineNav");
@@ -450,7 +450,7 @@ for (let i = 0; i < competitions.length; ++i) {
     </div>
   `;
   competitionContainer.appendChild(competition);
-  document.getElementById("competitions").appendChild(competitionContainer);
+  document.getElementById("Competitions").appendChild(competitionContainer);
 
   const div = document.createElement("div");
   div.className = "competition-img";
@@ -538,4 +538,4 @@ for (const account of accounts) {
   accountContainer.appendChild(a);
   row.appendChild(accountContainer);
 }
-document.querySelector("#competitions").appendChild(row);
+document.querySelector("#Competitions").appendChild(row);
