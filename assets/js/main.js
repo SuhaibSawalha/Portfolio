@@ -1,3 +1,11 @@
+document.querySelector(".navbar-toggler").addEventListener("click", () => {
+  const resume = document.getElementById("resume");
+  resume.style.display = "none";
+  setTimeout(() => {
+    resume.style.display = "inline-block";
+  }, 350);
+});
+
 const hrefs = ["#Home", "#About", "#Projects", "#Competitions", "#Contact"];
 function applyHoverOnNavbar() {
   if (window.innerWidth > 991.5) {

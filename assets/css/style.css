@@ -125,6 +125,11 @@ a.nav-link {
   }
 }
 
+#resume {
+  margin-left: auto;
+  font-size: 1.2rem;
+}
+
 @media (max-width: 991.5px) {
   .navbar-brand {
     margin-right: 0;
@@ -133,6 +138,15 @@ a.nav-link {
   }
   .navbar-brand span {
     font-size: 2rem;
+  }
+  #resume {
+    color: black;
+    height: 50px;
+    width: 180px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 15px;
+    font-size: 1.4rem;
   }
 }
 
@@ -697,6 +711,13 @@ section:not(#Home) {
 
 /* ! start Contact styling */
 
+#Contact .row .col-sm-6:first-child {
+  padding: 0 10px 0 0;
+}
+#Contact .row .col-sm-6:last-child {
+  padding: 0 10px 0 0;
+}
+
 .contact-right,
 .contact-left {
   height: 440px;
@@ -705,7 +726,7 @@ section:not(#Home) {
   height: 220px;
 }
 .contact-right .col-12 {
-  height: 210px;
+  height: 215px;
 }
 .sub-section {
   padding: 15px 5px 15px 30px;
@@ -735,7 +756,7 @@ input[aria-label="Username"] {
 
 @media (max-width: 1199.5px) {
   .contact-right {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   .contact-right > .row > div:first-child {
     padding-left: 0;
@@ -743,10 +764,14 @@ input[aria-label="Username"] {
   .contact-right > .row > div:last-child {
     padding-right: 0;
   }
+  #Contact .row .col-sm-6:last-child {
+    padding: 0;
+  }
 }
 @media (max-width: 575.5px) {
   .contact-right {
     height: 870px;
+    margin-bottom: 20px;
   }
   .contact-right .row {
     height: 440px;
@@ -762,6 +787,9 @@ input[aria-label="Username"] {
   }
   .contact-left {
     height: 480px;
+  }
+  #Contact .row .col-sm-6:first-child {
+    padding: 0;
   }
 }
 
