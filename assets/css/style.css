@@ -542,3 +542,155 @@ section:not(#Home) {
 }
 
 /* ! end Projects styling */
+
+/* ! start Competitions styling */
+
+.competition-container {
+  width: 100%;
+  height: 300px;
+  margin: 20px 0;
+  display: flex;
+}
+
+#Competitions .competition-container:nth-child(2n + 1) {
+  justify-content: end;
+}
+#Competitions .competition-container:nth-child(2n + 1) .competition {
+  flex-direction: row-reverse;
+}
+
+.competition {
+  padding: 20px;
+  background-color: var(--mainBlack);
+  border-radius: 10px;
+  width: calc(2 * 100% / 3 + 10px);
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.competition-img {
+  width: 400px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.competition-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.competition-body {
+  padding: 20px;
+  width: 400px;
+  height: 100%;
+}
+.competition-body h3 {
+  margin-bottom: 20px;
+}
+
+.goLeft {
+  transform: translateX(-100%);
+  transition: transform 1s ease;
+}
+
+@media (max-width: 1399.5px) {
+  .competition-container {
+    height: 320px;
+  }
+}
+
+@media (max-width: 1199.5px) {
+  .competition {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991.5px) {
+  .competition-container {
+    height: 350px;
+  }
+}
+
+@media (max-width: 767.5px) {
+  .competition-container {
+    height: 500px;
+  }
+  .competition {
+    flex-direction: column-reverse !important;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  .competition-img {
+    min-height: 230px;
+    background-color: red;
+    width: 100%;
+  }
+  .competition-body {
+    height: auto;
+    width: 100%;
+  }
+  .competition-body p {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .competition-container {
+    height: 400px;
+  }
+  .competition-img {
+    min-height: 150px;
+  }
+  .competition-body {
+    padding: 10px 0 0 0;
+    text-align: center;
+  }
+  .competition-body h3 {
+    font-size: 1.5rem;
+  }
+  .competition-body p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .competition-body h3 {
+    font-size: 1.2rem;
+  }
+  .competition-body p {
+    font-size: 0.7rem;
+  }
+}
+
+.account-container {
+  margin: 10px 0;
+}
+
+.account {
+  background-color: var(--mainBlack);
+  padding: 20px 20px 20px 30px;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  transition: all 0.5s ease;
+}
+.account-container a {
+  color: white;
+  text-decoration: none !important;
+}
+.account p {
+  margin-bottom: 0;
+}
+
+.account:hover {
+  border-bottom: 5px solid var(--mainGreen);
+  border-right: 5px solid var(--mainGreen);
+  transform: translate(-5px, -5px);
+}
+
+/* ! end Competitions styling */
