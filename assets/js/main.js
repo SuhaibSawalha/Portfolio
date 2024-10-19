@@ -165,26 +165,42 @@ const mySkills = [
     level: "95%",
     image: "./assets/img/skills/bootstrap.png",
   },
-  { name: "Git", level: "75%", image: "./assets/img/skills/git.png" },
+  {
+    name: "Typescript",
+    level: "60%",
+    image: "./assets/img/skills/typescript.png",
+  },
+  { name: "Restful API", level: "80%", image: "./assets/img/skills/api.png" },
   {
     name: "Postman",
     level: "65%",
     image: "./assets/img/skills/postman.png",
   },
+  { name: "React JS", level: "90%", image: "./assets/img/skills/react.png" },
+  { name: "Node JS", level: "50%", image: "./assets/img/skills/node-js.png" },
+  {
+    name: "React Native",
+    level: "20%",
+    image: "./assets/img/skills/react.png",
+  },
   { name: "Java", level: "75%", image: "./assets/img/skills/java.png" },
   { name: "Python", level: "65%", image: "./assets/img/skills/python.png" },
   { name: "Dart", level: "50%", image: "./assets/img/skills/dart.png" },
-  { name: "Kotlin", level: "30%", image: "./assets/img/skills/kotlin.png" },
   {
     name: "Flutter",
     level: "65%",
     image: "./assets/img/skills/flutter.png",
   },
-  { name: "React JS", level: "30%", image: "./assets/img/skills/react.png" },
+  { name: "Kotlin", level: "30%", image: "./assets/img/skills/kotlin.png" },
+  { name: "Git", level: "75%", image: "./assets/img/skills/git.png" },
+  { name: "GitHub", level: "90%", image: "./assets/img/skills/github.png" },
+  { name: "SQL", level: "80%", image: "./assets/img/skills/sql.png" },
+  { name: "MySQL", level: "70%", image: "./assets/img/skills/mysql.png" },
+  { name: "MongoDB", level: "75%", image: "./assets/img/skills/mongodb.png" },
   {
-    name: "React Native",
-    level: "20%",
-    image: "./assets/img/skills/react.png",
+    name: "HDL verilog",
+    level: "70%",
+    image: "./assets/img/skills/verilog.png",
   },
   { name: "Django", level: "20%", image: "./assets/img/skills/django.png" },
 ];
@@ -280,10 +296,15 @@ const competitions = [
     ],
   },
   {
-    name: "ICPC",
+    name: "ICPC 2024",
     description:
-      "ICPC is the International Colligate Programming Contest, it's the most prestigest programming contest around the world, me and my team were the first palestinain team ever qualifing to the ICPC, it would be held in 14/4/2024.",
-    images: ["./assets/img/competitions/icpc.png"],
+      "ICPC is the International Colligate Programming Contest, it's the most prestigest programming contest around the world, me and my team were the first palestinain team ever qualifing to the ICPC, and we have got an honorable mention.",
+    images: [
+      "./assets/img/competitions/icpc2024/icpc2024-team.jpg",
+      "./assets/img/competitions/icpc2024/icpc2024-all.jpg",
+      "./assets/img/competitions/icpc2024/icpc2024-stage.jpg",
+      "./assets/img/competitions/icpc2024/icpc2024-competition.jpg",
+    ],
   },
   {
     name: "ACPC 2022",
@@ -329,6 +350,12 @@ const competitions = [
     description:
       "PCPC 2020 was my first local contest in my competitve programming journy, me and my team participated unofficialiy and got the 6th place among all participants.",
     images: ["./assets/img/competitions/pcpc2020.jpg"],
+  },
+  {
+    name: "PCPC Qualification 2024",
+    description:
+      "PCPC Qualification is the qualification round for the PCPC for Birzeit University, me and my team got the first place.",
+    images: ["./assets/img/competitions/pcpc-Qualification2024.jpg"],
   },
   {
     name: "IEEEXtreme 16.0 & 17.0",
