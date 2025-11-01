@@ -326,8 +326,8 @@ const competitions = [
     description:
       "PCPC is the Palestinain Colligate Programming Contest, it's the most prestigest programming contest in Palestine, me and my team got the first place for the 5th time in a row.",
     images: [
-      "./assets/img/competitions/pcpc2025/pcpc2025-1.jpg",
-      "./assets/img/competitions/pcpc2025/pcpc2025-2.jpg",
+      "./assets/img/competitions/pcpc2025/pcpc2025-1.jpeg",
+      "./assets/img/competitions/pcpc2025/pcpc2025-2.jpeg",
       "./assets/img/competitions/pcpc2025/pcpc2025-3.jpg",
       "./assets/img/competitions/pcpc2025/pcpc2025-4.jpg",
     ],
@@ -337,11 +337,11 @@ const competitions = [
     description:
       "PCPC is the Palestinain Colligate Programming Contest, it's the most prestigest programming contest in Palestine, me and my team got the first place for the 4th time in a row.",
     images: [
-      "./assets/img/competitions/pcpc2024/pcpc2024-1.jpg",
-      "./assets/img/competitions/pcpc2024/pcpc2024-2.jpg",
-      "./assets/img/competitions/pcpc2024/pcpc2024-3.jpg",
-      "./assets/img/competitions/pcpc2024/pcpc2024-4.jpg",
-      "./assets/img/competitions/pcpc2024/pcpc2024-5.jpg",
+      "./assets/img/competitions/pcpc2024/pcpc2024-1.jpeg",
+      "./assets/img/competitions/pcpc2024/pcpc2024-2.jpeg",
+      "./assets/img/competitions/pcpc2024/pcpc2024-3.jpeg",
+      "./assets/img/competitions/pcpc2024/pcpc2024-4.jpeg",
+      "./assets/img/competitions/pcpc2024/pcpc2024-5.jpeg",
     ],
   },
   {
@@ -380,7 +380,7 @@ const competitions = [
       "PCPC Qualification is the qualification round for the PCPC for Birzeit University, me and my team got the first place.",
     images: [
       "./assets/img/competitions/pcpc-qualification2025/pcpc-qualification2025-1.jpg",
-      "./assets/img/competitions/pcpc-qualification2025/pcpc-qualification2025-2.jpg",
+      "./assets/img/competitions/pcpc-qualification2025/pcpc-qualification2025-2.jpeg",
     ],
   },
   {
@@ -393,7 +393,7 @@ const competitions = [
     name: "IEEEXtreme 18.0",
     description:
       "IEEEXtreme is an international 24-hours contest. IEEEXtreme 18.0 was held in the university and we got the 18th place among all participants in the world.",
-    images: ["./assets/img/competitions/ieeextreme16.jpg"],
+    images: ["./assets/img/competitions/ieeextreme18/ieeextreme18-1.jpeg"],
   },
   {
     name: "IEEEXtreme 16.0 & 17.0",
