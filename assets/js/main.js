@@ -322,6 +322,29 @@ const competitions = [
     images: ["./assets/img/competitions/acpc2021.jpg"],
   },
   {
+    name: "PCPC 2025",
+    description:
+      "PCPC is the Palestinain Colligate Programming Contest, it's the most prestigest programming contest in Palestine, me and my team got the first place for the 5th time in a row.",
+    images: [
+      "./assets/img/competitions/pcpc2025/pcpc2025-1.jpg",
+      "./assets/img/competitions/pcpc2025/pcpc2025-2.jpg",
+      "./assets/img/competitions/pcpc2025/pcpc2025-3.jpg",
+      "./assets/img/competitions/pcpc2025/pcpc2025-4.jpg",
+    ],
+  },
+  {
+    name: "PCPC 2024",
+    description:
+      "PCPC is the Palestinain Colligate Programming Contest, it's the most prestigest programming contest in Palestine, me and my team got the first place for the 4th time in a row.",
+    images: [
+      "./assets/img/competitions/pcpc2024/pcpc2024-1.jpg",
+      "./assets/img/competitions/pcpc2024/pcpc2024-2.jpg",
+      "./assets/img/competitions/pcpc2024/pcpc2024-3.jpg",
+      "./assets/img/competitions/pcpc2024/pcpc2024-4.jpg",
+      "./assets/img/competitions/pcpc2024/pcpc2024-5.jpg",
+    ],
+  },
+  {
     name: "PCPC 2023",
     description:
       "PCPC is the Palestinain Colligate Programming Contest, it's the most prestigest programming contest in Palestine, me and my team got the first place for the 3rd time in a row.",
@@ -352,10 +375,25 @@ const competitions = [
     images: ["./assets/img/competitions/pcpc2020.jpg"],
   },
   {
+    name: "PCPC Qualification 2025",
+    description:
+      "PCPC Qualification is the qualification round for the PCPC for Birzeit University, me and my team got the first place.",
+    images: [
+      "./assets/img/competitions/pcpc-qualification2025/pcpc-qualification2025-1.jpg",
+      "./assets/img/competitions/pcpc-qualification2025/pcpc-qualification2025-2.jpg",
+    ],
+  },
+  {
     name: "PCPC Qualification 2024",
     description:
       "PCPC Qualification is the qualification round for the PCPC for Birzeit University, me and my team got the first place.",
-    images: ["./assets/img/competitions/pcpc-Qualification2024.jpg"],
+    images: ["./assets/img/competitions/pcpc-qualification2024.jpg"],
+  },
+  {
+    name: "IEEEXtreme 18.0",
+    description:
+      "IEEEXtreme is an international 24-hours contest. IEEEXtreme 18.0 was held in the university and we got the 18th place among all participants in the world.",
+    images: ["./assets/img/competitions/ieeextreme16.jpg"],
   },
   {
     name: "IEEEXtreme 16.0 & 17.0",
@@ -391,10 +429,31 @@ const competitions = [
     images: ["./assets/img/competitions/facebookHackerCup.PNG"],
   },
   {
+    name: "Hebron Code Jam 2025",
+    description:
+      "Hebron Code Jam is a local competition held at hebron university every year, me and my team got the second place in 2025 among all participants from all universities.",
+    images: ["./assets/img/competitions/HebronCodeJam2025/HebronCodeJam2025-1.jpg"],
+  },
+  {
     name: "Hebron Code Jam 2023",
     description:
       "Hebron Code Jam is a local competition held at hebron university every year, me and my team got the first place in 2023 among all participants from all universities.",
     images: ["./assets/img/competitions/hebronCodeJam2023.jpg"],
+  },
+  {
+    name: "Pre-Hebron Code Jam 2025",
+    description:
+      "Pre-Hebron Code Jam is a competition held to qualify teams to Hebron Code Jam, me and my team got the first place.",
+    images: [
+      "./assets/img/competitions/Pre-HebronCodeJam2025/Pre-HebronCodeJam2025-1.jpg",
+      "./assets/img/competitions/Pre-HebronCodeJam2025/Pre-HebronCodeJam2025-2.jpg",
+    ],
+  },
+  {
+    name: "Head to Head",
+    description:
+      "Head to Head is an individual competition held by IEEE where each one is competing against the other until reaching the finals, I have got the first place in the Advanced section.",
+    images: ["./assets/img/competitions/headToHead/headToHead-1.jpg"],
   },
   {
     name: "Logic Battle",
@@ -424,6 +483,15 @@ const competitions = [
     name: "IC 2023",
     description: "In 2023 I was the problem setter for the IC 2023.",
     images: ["./assets/img/competitions/ic2023.jpg"],
+  },
+  {
+    name: "Ana Problem Solving",
+    description:
+      "Ana Problem Solving is a competition held by CSE Club - Computer, Smart Energy & Electrical Engineering, me and my team got the first place.",
+    images: [
+      "./assets/img/competitions/AnaProblemSolving/AnaProblemSolving-1.jpg",
+      "./assets/img/competitions/AnaProblemSolving/AnaProblemSolving-2.jpg",
+    ],
   },
   {
     name: "Noon Competition",
